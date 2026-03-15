@@ -5,6 +5,7 @@ import HighlightsSection from "./sections/HighlightsSection";
 import ProjectsSection from "./sections/ProjectsSection";
 import SkillsSection from "./sections/SkillsSection";
 import ContactSection from "./sections/ContactSection";
+import CertificationsSection from "./sections/CertificationsSection";
 
 export default function App() {
   const [heroReady, setHeroReady] = useState(false);
@@ -22,6 +23,7 @@ export default function App() {
         <HighlightsSection />
         <ProjectsSection />
         <SkillsSection />
+        <CertificationsSection />
         <ContactSection />
       </div>
 
