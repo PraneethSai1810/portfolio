@@ -178,9 +178,7 @@ export default function HeroSection({ onReady }) {
               style={{ fontFamily:"'DM Sans', sans-serif", fontWeight:300, fontSize:"0.95rem",
                 lineHeight:1.8, color:"rgba(148,163,184,0.78)", maxWidth:"50ch" }}
             >
-              CS undergrad at KMCE, Hyderabad. I build backend systems and ML-powered
-              pipelines — shipping NLP models for legal document analysis and
-              real-time computer vision inference end-to-end.
+              Final-year CS undergrad at KMCE, Hyderabad (2027). I build full-stack applications, backend systems, and AI-powered solutions, from REST APIs and database-driven apps to NLP and computer vision pipelines.
             </motion.p>
 
             {/* ── UPDATED: added Resume button ── */}
