@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileAlt, FaDownload } from "react-icons/fa";
 
 function useCursorGlow() {
   const [pos, setPos] = useState({ x: -999, y: -999 });
@@ -193,8 +193,8 @@ export default function HeroSection({ onReady }) {
                 icon={<FaGithub size={14} />} label="GitHub" variant="ghost" />
               <PremiumButton href="https://linkedin.com/in/praneethsai1810"
                 icon={<FaLinkedin size={14} />} label="LinkedIn" variant="filled" />
-              <PremiumButton href="/ResumePraneethSai.pdf" download
-                icon={<FaFileAlt size={14} />} label="Resume" variant="ghost" />
+              <PremiumButton href="/AjjarapuPraneeth_Resume.pdf"
+  icon={<FaFileAlt size={14} />} label="Resume" variant="ghost" />
             </motion.div>
           </motion.div>
         )}

@@ -4,6 +4,32 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const CERTS = [
   {
+    title: "5-Day AI Agents: Intensive Vibe Coding Course With Google",
+    issuer: "Google",
+    year: "2026",
+    color: "#818cf8",
+    rgb: "99,102,241",
+    links: [
+      {
+        label: "View Credential",
+        href: "https://developers.google.com/profile/badges/events/cloud/five-day-ai-agents",
+      },
+    ],
+  },
+  {
+    title: "AWS Cloud Practitioner Essentials",
+    issuer: "AWS",
+    year: "2026",
+    color: "#818cf8",
+    rgb: "99,102,241",
+    links: [
+      {
+        label: "View Credential",
+        href: "https://drive.google.com/file/d/15fgyMd_o5z2x7sdFQfVlDldNgPG12sKe/view?pli=1",
+      },
+    ],
+  },
+  {
     title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
     issuer: "Oracle",
     year: "2025",

@@ -183,7 +183,9 @@ function ProjectCard({ project }) {
         {/* Buttons */}
         <div style={{ display: "flex", gap: 8, marginTop: 4 }}>
           <CardButton href={project.github} icon={<FaGithub size={12} />} label="GitHub" ghost />
-          <CardButton href={project.live} icon={<FaExternalLinkAlt size={10} />} label="Live Demo" />
+          {project.live && (
+  <CardButton href={project.live} icon={<FaExternalLinkAlt size={10} />} label="Live Demo" />
+)}
         </div>
       </div>
     </div>

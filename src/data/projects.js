@@ -1,6 +1,7 @@
 import legalseg from "../assets/projects/legalseg.png";
 import scenesolver from "../assets/projects/scenesolver.png";
 import diwali from "../assets/projects/diwali.png";
+import supportticket from "../assets/projects/supportticket.png";
 
 const projects = [
   {
@@ -27,6 +28,17 @@ const projects = [
     live: "https://scene-solver-eight.vercel.app/",
     featured: false,
   },
+ {
+  id: "support-ticket-system",
+  title: "Support Ticket System",
+  badge: "Backend Development",
+  description:
+    "Backend support ticket management system built with Django REST Framework and PostgreSQL. Developed REST APIs for ticket creation, management, and tracking, containerized the application using Docker and Docker Compose, and integrated the Gemini API for AI-powered functionality.",
+  image: supportticket,
+  tags: ["Python", "Django", "DRF", "PostgreSQL", "Docker", "Gemini API"],
+  github: "https://github.com/PraneethSai1810/support-ticket-system",
+  featured: false,
+},
   {
     id: "diwali",
     title: "Diwali Web App",

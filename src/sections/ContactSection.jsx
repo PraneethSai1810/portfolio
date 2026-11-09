@@ -169,8 +169,8 @@ export default function ContactSection() {
             letterSpacing: "0.18em", textTransform: "uppercase",
             color: "rgba(139,92,246,0.7)",
           }}>
-            ✦ Available for Summer 2026 Internships
-          </p>
+            ✦ Available for Summer 2027 Internships & Fresher Roles
+                      </p>
         </motion.div>
 
         {/* ── Two-column layout ── */}
